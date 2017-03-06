@@ -1,18 +1,18 @@
-#ifndef	PARSE_H
-#define	PARSE_H
+#ifndef PARSE_H
+#define PARSE_H
 
 /*
- *	symbols
+ *  symbols
  */
 
-enum tokens {				/* must not clash with operators */
-	NUMBER = 'n'			/* literal constant */
+enum tokens {               /* must not clash with operators */
+    NUMBER = 'n'            /* literal constant */
 };
 
 /*
- *	error recovery
+ *  error recovery
  */
 
-void error (const char * fmt, ...);
+void error(const char * fmt, ...);
 
 #endif

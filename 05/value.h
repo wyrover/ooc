@@ -1,8 +1,8 @@
-#ifndef	VALUE_H
-#define	VALUE_H
+#ifndef VALUE_H
+#define VALUE_H
 
 /*
- *	node types
+ *  node types
  */
 
 const void * Minus;
@@ -13,11 +13,11 @@ const void * Add;
 const void * Sub;
 
 /*
- *	tree management
+ *  tree management
  */
 
-void * new (const void * type, ...);
-void process (const void * tree);
-void delete (void * tree);
+void * new(const void * type, ...);
+void process(const void * tree);
+void delete(void * tree);
 
 #endif

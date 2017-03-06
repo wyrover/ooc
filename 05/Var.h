@@ -1,17 +1,17 @@
-#ifndef	VAR_H
-#define	VAR_H
+#ifndef VAR_H
+    #define VAR_H
 
-/*
- *	node types
- */
+    /*
+    *  node types
+    */
 
-const void * Var;
-const void * Assign;
+    const void * Var;
+    const void * Assign;
 
-/*
- *	initializations
- */
+    /*
+    *  initializations
+    */
 
-void initConst (void);
+    void initConst(void);
 
 #endif

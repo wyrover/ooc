@@ -1,10 +1,10 @@
-#ifndef	PARSE_H
-#define	PARSE_H
+#ifndef PARSE_H
+    #define PARSE_H
 
-/*
- *	error recovery
- */
+    /*
+    *  error recovery
+    */
 
-void error (const char * fmt, ...);
+    void error(const char * fmt, ...);
 
 #endif

@@ -1,8 +1,8 @@
-#ifndef	CIRCLE_H
-#define	CIRCLE_H
+#ifndef CIRCLE_H
+    #define CIRCLE_H
 
-#include "Point.h"
+    #include "Point.h"
 
-extern const void * Circle;		/* new(Circle, x, y, rad) */
+    extern const void * Circle;     /* new(Circle, x, y, rad) */
 
 #endif

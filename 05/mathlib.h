@@ -1,16 +1,16 @@
-#ifndef	MATHLIB_H
-#define	MATHLIB_H
+#ifndef MATHLIB_H
+    #define MATHLIB_H
 
-/*
- *	node types
- */
+    /*
+    *  node types
+    */
 
-extern const void * Math;
+    extern const void * Math;
 
-/*
- *	initialization
- */
+    /*
+    *  initialization
+    */
 
-void initMath (void);
+    void initMath(void);
 
 #endif

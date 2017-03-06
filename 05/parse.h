@@ -1,23 +1,23 @@
-#ifndef	PARSE_H
-#define	PARSE_H
+#ifndef PARSE_H
+#define PARSE_H
 
 /*
- *	symbols
+ *  symbols
  */
 
-enum tokens {				/* must not clash with operators */
-	NUMBER = 'n',			/* literal constant */
-	CONST = 'c',				/* constant name */
-	MATH = 'm',				/* library function name */
-	VAR = 'v',				/* variable name */
+enum tokens {               /* must not clash with operators */
+    NUMBER = 'n',           /* literal constant */
+    CONST = 'c',                /* constant name */
+    MATH = 'm',             /* library function name */
+    VAR = 'v',              /* variable name */
 
-	LET = 'l'				/* LET VAR = sum */
+    LET = 'l'               /* LET VAR = sum */
 };
 
 /*
- *	error recovery
+ *  error recovery
  */
 
-void error (const char * fmt, ...);
+void error(const char * fmt, ...);
 
 #endif
